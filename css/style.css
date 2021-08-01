@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&family=Mulish:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Catamaran", sans-serif;
+}
+
+input {
+  border: 1px solid rgb(230, 230, 230);
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+header {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+header h2 {
+  display: flex;
+  font-variant: small-caps;
+}
+
+header ul {
+  margin-top: 30px;
+}
+
+header ul li {
+  display: inline;
+  padding-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+header button,
+main button {
+  color: #fff;
+  background-color: rgb(59, 113, 184);
+  border-radius: 4px;
+  height: 45px;
+  padding: 0 15px 0 15px;
+  position: relative;
+  top: 15px;
+  font-size: 14px;
+  border: none;
+}
+
+#header-bottom {
+  background-color: rgb(248, 248, 248);
+  width: 95%;
+  margin: auto;
+}
+
+main {
+  margin-top: 50px;
+  display: flex;
+  width: 90%;
+  /* margin: auto; */
+}
+
+main h1 {
+  font-size: 2.5em;
+  text-align: left;
+}
+main p {
+  width: 80%;
+  font-size: 1.2em;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+main input {
+  height: 50px;
+  padding: 10px 20px;
+  width: 300px;
+  background-color: rgb(248, 248, 248);
+  border-radius: 3px;
+  font-size: 15px;
+  margin-top: 50px;
+}
+
+main div img {
+  width: 450px;
+  height: auto;
+}
+
+main button {
+  position: relative;
+  top: 0px;
+  padding: 0 25px 0 25px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.imagess {
+  margin-top: 100px;
+  width: 100%;
+  margin-left: 150px;
+}
+
+#main-image {
+  width: 70%;
+  background-color: rgb(248, 248, 248);
+  border-radius: 3px;
+}
+#right-image {
+  width: 25%;
+  background-color: rgb(248, 248, 248);
+  border-radius: 3px;
+  position: relative;
+  bottom: 360px;
+  right: 140px;
+}
+
+#left-image {
+  background-color: rgb(248, 248, 248);
+  width: 20%;
+  border-radius: 3px;
+  position: relative;
+  right: 125px;
+  bottom: 250px;
+}
+
+#stuff p,
+h1 {
+  text-align: center;
+}
+
+#stuff h1 {
+  font-size: 2.3em;
+  margin-bottom: 30px;
+}
+#stuff #steps {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.page1-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page1-bottom .page1-bottom-text {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.page1-bottom p {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: left !important;
+}
+
+.page1-bottom ul {
+  margin-left: 25px;
+}
+
+.page1-bottom ul li {
+  margin-bottom: 10px;
+  list-style-image: url("../pictures/check3edited.png");
+}
+
+.page2-top {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page2-top-text {
+  margin-top: 100px;
+}
+.page2-top-text h2 {
+  margin-bottom: 30px;
+}
+.page2-top-text p {
+  margin-bottom: 30px;
+}
+.page2-top ul {
+  margin-left: 25px;
+}
+.page2-top-text ul li {
+  list-style-image: url("../pictures/check3edited.png");
+  margin-bottom: 10px;
+}
+
+.page2-middle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page2-middle .page2-middle-text {
+  margin-top: 110px;
+  margin-left: 100px;
+}
+.page2-middle p {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: left !important;
+}
+
+.page2-middle ul {
+  margin-left: 25px;
+}
+
+.page2-middle ul li {
+  margin-bottom: 10px;
+  list-style-image: url("../pictures/check3edited.png");
+}
+
+.page2-bottom {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page2-bottom-text {
+  margin-top: 100px;
+}
+.page2-bottom-text h2 {
+  margin-bottom: 30px;
+}
+.page2-bottom-text p {
+  margin-bottom: 30px;
+}
+.page2-bottom ul {
+  margin-left: 25px;
+}
+.page2-bottom-text ul li {
+  list-style-image: url("../pictures/check3edited.png");
+  margin-bottom: 10px;
+}
+
+.page2-real-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page2-real-bottom .page2-real-bottom-text {
+  margin-top: 110px;
+  margin-left: 100px;
+}
+.page2-real-bottom p {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: left !important;
+}
+
+.page2-real-bottom ul {
+  margin-left: 25px;
+}
+
+.page2-real-bottom ul li {
+  margin-bottom: 10px;
+  list-style-image: url("../pictures/check3edited.png");
+}
+
+iframe {
+  margin-left: 29%;
+}
+/* get free access buttom */
+#gfa {
+  color: #fff;
+  background-color: rgb(59, 113, 184);
+  border-radius: 4px;
+  height: 45px;
+  padding: 0 15px 0 15px;
+  position: relative;
+  top: 15px;
+  font-size: 14px;
+  border: none;
+  position: relative;
+  top: 0px;
+}
+/* get input */
+#gi {
+  height: 50px;
+  padding: 10px 20px;
+  width: 300px;
+  background-color: rgb(248, 248, 248);
+  border-radius: 3px;
+  font-size: 15px;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+.grey {
+  width: 800px;
+  margin-left: 29%;
+  border-radius: 5px;
+  background-color: rgb(248, 248, 248);
+  margin-top: 80px;
+  padding: 0px 0px 30px 60px;
+  text-align: left;
+}
+
+.heading-line {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+#feedback-heading {
+  font-size: 2em;
+}
+
+.sign {
+  background-color: rgb(248, 248, 248);
+  border-radius: 5px;
+  padding: 15px 20px;
+  margin-left: 10px;
+}
+.feedback {
+  display: flex;
+}
+
+.feedback p {
+  background-color: rgb(248, 248, 248);
+  border-radius: 5px;
+  padding: 60px 60px;
+  margin-left: -5px;
+  border: 1px solid rgb(218, 218, 218);
+}
+
+#fb-p-right {
+  margin-left: 20px;
+}
+
+#pp {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+#aryan-dt {
+  display: inline-block;
+  margin-top: 4px;
+  margin-left: 65px;
+}
+
+.above-footer {
+  text-align: center;
+}
+.above-footer h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.above-footer p {
+  margin-bottom: 50px;
+}
+.above-footer img {
+  width: 70%;
+}
+
+footer {
+  width: 70%;
+  background-color: rgb(248, 248, 248);
+  margin: auto;
+  padding: 40px 80px;
+  margin-top: 120px;
+  border-radius: 5px;
+}
+
+footer .grey {
+  background-color: rgb(248, 248, 248);
+  margin-left: -60px;
+}
+
+footer h2 {
+  margin-bottom: 40px;
+}
+
+footer p {
+  line-height: 40px;
+}
